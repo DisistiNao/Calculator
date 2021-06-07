@@ -1,0 +1,46 @@
+body {
+    padding: 5% 20%;
+    background-color: rgb(84, 88, 146);
+}
+
+header > * {
+    text-align: center;
+    font-size: 40px;
+    font-family: monospace;
+}
+
+.label {
+    padding-right: 10px;
+    height: 60px;
+    background-color: rgb(255 255 255 / 40%);
+    text-align: right;
+    font-size: 50px;
+    font-family: monospace;
+}
+
+.buttons {
+    height: 300px;
+}
+
+.buttons > div {
+    flex-direction: column;
+    height: 20%;
+}
+
+.buttons > div > button {
+    width: 25%;
+    height: 100%;
+}
+
+#btnC {
+    width: 50%;
+}
+
+#btn0 {
+    width: 75%;
+}
+
+button {
+    font-size: 35px;
+    font-family: monospace;
+}
